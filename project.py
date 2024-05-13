@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
-data = pd.read_csv('D:\TRU\sem last\Power-Bi-Exercise\project\Market Basket Analysis_Data.csv\MSB_Data.csv', sep=';',parse_dates=['Date'])
+data = pd.read_csv('MSB_Data.csv', sep=';',parse_dates=['Date'])
 # print(data.head())
 
 #Data pre processing:
